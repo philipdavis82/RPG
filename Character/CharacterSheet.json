@@ -1,0 +1,158 @@
+{
+    "Description":
+        {
+            "Name"                  : "",
+            "Race"                  : "",
+            "Age"                   : "",
+            "Physical Description"  : "",
+            "Personality"           : ""
+        },
+    "Attributes" : 
+        {
+            "Body"  : 0,
+            "Mind"  : 0,
+            "Spirit" : 0,
+            "Presence"  : 0
+        },
+    "Attribute Points":
+        {
+            "Spent"     : 0,
+            "Remaining" : 0
+        },
+    "Leveling"  : [1,1,1,2,2,2,3,3,3,4,4,4,5,5,5,6,6,6],
+    "Stats Per Level" : 3,
+    "Special" : 
+        {
+            "Luck" : 0
+        },
+    "Combat Stats":
+        {
+            "General" : 
+                {
+                    "Reaction" : 0,
+                    "Movement" : 0
+                },
+            "Defense" :
+                {
+                    "Stamina"   : 
+                        { 
+                            "Total" : 0,
+                            "Current" : 0
+                        },
+                    "Health"    :  
+                        { 
+                            "Total" : 0,
+                            "Current" : 0,
+                            "Regen Per Day" : 0
+                        },
+                    "Total Physical"  : 0,
+                    "Total Magical"   : 0,
+                    "Armor name 1" :
+                        {
+                            "Stat Requirements": 
+                                {
+                                    "Body"      :   0,
+                                    "Mind"      :   0,
+                                    "Spirit"     :   0,
+                                    "Presence"  :   0
+                                }
+                        }
+                },
+            "Attack" :
+                {
+                    "Weapon 1" : 
+                        {
+                            "Class"         : "",
+                            "Modifier"      : "", 
+                            "Accuracy"      : "",
+                            "Damage"        : "",
+                            "Range"         : "",
+                            "Ability name 1"  :
+                                {
+                                    "Cost"          : "",
+                                    "Cooldown"      : "",
+                                    "Description"   : ""
+                                },
+                            "Stat Requirements": 
+                                {
+                                    "Body"      :   0,
+                                    "Mind"      :   0,
+                                    "Faith"     :   0,
+                                    "Presence"  :   0
+                                }
+                        }
+                },
+            "Magic" :
+                {
+                    "Mental Stamina" :  
+                        { 
+                            "Total" : 0,
+                            "Current" : 0
+                        }
+                }
+        },
+    "Worn Items" :
+        {
+            "Head"  : "",
+            "Neck"  : "",
+            "Chest" : "",
+            "Back"  : "",
+            "Arms"  : "",
+            "Hands" : "",
+            "Finger1" : "",
+            "Finger2" : "",
+            "Belt"  : "",
+            "Feet"  : "",
+            "Main Hand" : "",
+            "Off Hand"  : ""
+        },
+    "Traits" :
+        {
+            "Trait Name 1"  :   
+                {
+                    "Description"   : "",
+                    "Modifiers"     : ""
+                }
+        },
+    "Abilities" :
+        {
+            "Ability Name 1":
+                {
+                    "Level" : 0,
+                    "Stat Requirements": 
+                        {
+                            "Body"      :   0,
+                            "Mind"      :   0,
+                            "Faith"     :   0,
+                            "Presence"  :   0
+                        },
+                    "Cost" : "",
+                    "Cooldown" : "",
+                    "Description"   : ""
+                }
+        },
+    "Items" : 
+        {
+            "Item name 1" :
+                {
+                    "Level" : 0,
+                    "Type"  : "",
+                    "Slot"  : "",
+                    "Stat Requirements": 
+                        {
+                            "Body"      :   0,
+                            "Mind"      :   0,
+                            "Faith"     :   0,
+                            "Presence"  :   0
+                        },
+                    "Description" : "",
+                    "Effects"     : 
+                        {
+                            "Effect name 1" : 
+                                {
+                                    "Description" : ""
+                                }
+                        }
+                }
+        }
+}
