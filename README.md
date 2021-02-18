@@ -47,16 +47,16 @@
 
 ### **Point Pools**
 Character have point pools that determine the current state of the character. These include the physical health of the character, physical energy, and mental energy.
-* Endurance Pool:
+* Endurance Pool (EP):
   * This is pseudo health pool that denotes the non-permanent damage taken by a character 
   * Determined by a Combination of Body, Mind, and Level
-* Health Pool:
+* Health Pool (HP):
   * This is a representation of permanent physical damage
   * Determined by Body and Level (*Maybe Only Level*)
-* Stamina:
+* Stamina (SP):
   * This is the representation of physical energy and is used for physical abilities and effects
   * Determined by Body, Spirit and Level
-* Mental Focus:
+* Mental Focus (MP):
   * This is the mental energy to use magic
   * Determined by Mind, Spirit, and Level
 
@@ -106,10 +106,36 @@ Character have point pools that determine the current state of the character. Th
      - Items : Two-Handed Melee Weapon
      - Effect : "This character may spend stamina to attack multiple enemies within reach. Roll and attack against each enemy. within reach. 
      - Description : The combatant swigs their weapon in a large arc cutting down any foe how is unlucky enough to be caught in its path
+     - Tags : Figher,Melee,Two-Handed,Stamina
 
 ---
 
 ## Items
+
+* Items are similar to Abilities in terms of how a character plays
+* Items should be more powerfull than abilities due to only having limited equipment slots
+
+*Example Ability* 
+
+    Rusty Longsowrd
+    - Level : 1
+    - Requirments: [ Body: 1(2) ]
+    - Accracy : d20 + Body - 1d4 ( d20 + Body )
+    - Damage  : 1d4 + Body/2 ( 1d4 + Body )
+    - Damage Type : Physical
+    - Range : Immediate
+    - Effect : Fragile: Dealing 6 or more damage breaks the sword giving a point of disadvantage. At 3 points completly destory the sword.
+    - Description : A layer of rust covers this sword. It was probably left out in the rain for much too long. The weight
+    - Tags: Fighter,Melee,Negitive,Mundane,Damage,Immediate
+>
+    Minor Potion of Healing
+    - Level : 1
+    - Requirments: [ None (Spirit: 4) ]
+    - Range : Immediate
+    - Healing : 1d8 EP + 1d4 HP (1d8 + Spirit EP + 1d8 HP)
+    - Effect : Drinking this potion heals ones wounds and reinvigorates 
+    - Description : A translucent light green liquid that carries a strong almond scent. 
+    - Tags: Potion,Healing,Immediate,Magic
 
 ---
 
