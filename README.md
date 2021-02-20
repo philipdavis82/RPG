@@ -29,21 +29,12 @@
 * Skill Roles take 2 stat bonuses and combines them
     * A Skill that required 1 stat uses the level instead of the bonus as a modifier
 
->### **Leveling Paradigms**
->mod 3 design 
->* Leveling a stat takes a specified amount of points
->    * levels [0-3] take 1 point each.
->    * levels [4-6] take 2 points each.
->    * levels [7-9] take 3 points each.
->    * levels [10-12] take 4 points each.
->    * levels [13-15] take 5 points each.
->    * levels [16+] take 6 points each.
->* Each level gives the player 3 points
->
->Linear Design
->* Leveling a stat takes 1 stat point
->    * The max a stat can reach is 20
->* each level gives 2 stat points
+### **Leveling Paradigms**
+Linear Design
+* Leveling a stat takes 1 stat point
+    * The max a stat can reach is 20
+* each level gives 2 stat points
+* Stat gives a bonus of $1/2$ the level
 
 ### **Point Pools**
 Character have point pools that determine the current state of the character. These include the physical health of the character, physical energy, and mental energy.

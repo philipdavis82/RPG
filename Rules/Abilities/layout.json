@@ -1,0 +1,22 @@
+{
+  "abilites": {
+    "Wide Sweep": {
+      "level": 3,
+      "requirements": {
+        "body": 6,
+        "presence": 2
+      },
+      "actions": 2,
+      "type": "attack",
+      "cost": {
+        "stamina": 4
+      },
+      "required items": [
+        "Two Handed Melee Weapon"
+      ],
+      "effect": "This character may spend stamina to attack multiple enemies within reach. Roll and attack against each enemy. within reach",
+      "description" : "The combatant swigs their weapon in a large arc cutting down any foe how is unlucky enough to be caught in its path",
+      "tags" : ["Figher","Melee","Two-Handed","Stamina"]
+    }
+  }
+}
